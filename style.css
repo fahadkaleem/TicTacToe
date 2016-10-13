@@ -5,10 +5,18 @@
 
 body{
     text-align: center;
+    background: snow;
 }
 
 canvas{
     background: skyblue;
+    -webkit-transition: -webkit-transform 1s;
+}
+
+canvas:hover{
+    width: 51px;
+    height: 49px;
+    opacity: 0.5;
 }
 
 #canvasDiv{
@@ -17,4 +25,10 @@ canvas{
 
 #reloadButton{
     text-decoration: none;
+    color: black;
+    font: 20px tahoma;
+}
+
+#reloadButton:hover{
+    font-size: 22px;
 }
