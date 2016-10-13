@@ -13,7 +13,9 @@ for (var i = 1; i < 10; i++)
 for (var i = 1; i < 10; i++)
     bDisabled[i] = false;
 
-function loop(x){
-
+function loop(x) {
+    if (!bDisabled[x]) {
+        bDisabled = true;
+    }
 }
 
