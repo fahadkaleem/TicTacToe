@@ -14,3 +14,7 @@ canvas{
 #canvasDiv{
     margin: 150px auto 40px;
 }
+
+#reloadButton{
+    text-decoration: none;
+}
