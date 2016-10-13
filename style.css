@@ -10,3 +10,7 @@ body{
 canvas{
     background: skyblue;
 }
+
+#canvasDiv{
+    margin: 150px auto 40px;
+}
