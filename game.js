@@ -16,6 +16,7 @@ for (var i = 1; i < 10; i++)
 function loop(x) {
     if (!bDisabled[x]) {
         bDisabled = true;
+        bDisabled.style.opacity = 0.7;
     }
 }
 
